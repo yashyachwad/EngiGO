@@ -44,21 +44,6 @@ npm install
 npm run dev
 ```
 
-## 📁 Folder Structure
-
-
-EngiGO/
-│
-├── src/
-│ ├── Comp/ # All React components (Nav, Body, First, etc.)
-│ ├── App.jsx # Main React component
-│ ├── index.css # Tailwind and global styles
-│ └── main.jsx # React entry point
-│
-├── public/ # Static assets
-├── package.json # Dependencies and scripts
-└── vite.config.js # Vite configuration
-
 
 
 ##🌐 Deployment
