@@ -48,11 +48,23 @@ npm run dev
 EngiGO/
 │
 ├── src/
-│   ├── Comp/          # All React components (Nav, Body, First, etc.)
-│   ├── App.jsx        # Main React component
-│   ├── index.css      # Tailwind and global styles
-│   └── main.jsx       # React entry point
+│   ├── Comp/         
+│   ├── App.jsx        
+│   ├── index.css      
+│   └── main.jsx     
 │
-├── public/            # Static assets
-├── package.json       # Dependencies and scripts
-└── vite.config.js     # Vite configuration
+├── public/           
+├── package.json      
+└── vite.config.js  
+
+
+
+##🌐 Deployment
+
+You can easily deploy this website using:
+
+Vercel
+
+Netlify
+
+GitHub Pages
