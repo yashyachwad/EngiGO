@@ -45,17 +45,19 @@ npm run dev
 ```
 
 ## 📁 Folder Structure
+
+
 EngiGO/
 │
 ├── src/
-│   ├── Comp/         
-│   ├── App.jsx        
-│   ├── index.css      
-│   └── main.jsx     
+│ ├── Comp/ # All React components (Nav, Body, First, etc.)
+│ ├── App.jsx # Main React component
+│ ├── index.css # Tailwind and global styles
+│ └── main.jsx # React entry point
 │
-├── public/           
-├── package.json      
-└── vite.config.js  
+├── public/ # Static assets
+├── package.json # Dependencies and scripts
+└── vite.config.js # Vite configuration
 
 
 
