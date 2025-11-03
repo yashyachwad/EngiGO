@@ -1,16 +1,58 @@
-# React + Vite
+# 🎓 EngiGO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive web platform built for **engineering students** who often struggle with new subjects, unfamiliar fields, and scattered study materials.  
+EngiGO simplifies their academic journey by organizing resources, lectures, and references in one easy-to-navigate place.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## React Compiler
+- ⚛️ **React.js** – for building dynamic and reusable UI components  
+- 🎨 **Tailwind CSS** – for modern, responsive styling  
+- 🧭 **React Router DOM** – for seamless navigation between pages  
+- ⭐ **Font Awesome (FA)** – for clean and meaningful icons  
+- ✨ **AOS (Animate on Scroll)** – for smooth entry animations and transitions  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧠 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📚 Well-organized subject sections for quick access  
+- 🎥 Links to video lectures and external study materials  
+- 🗂️ Simplified structure for first-year and core engineering topics  
+- 🌙 Light/Dark theme support (if included)  
+- 💨 Smooth scroll animations using AOS  
+- 🧭 Fast routing using React Router  
+
+---
+
+## 🛠️ Installation & Setup
+
+Clone the repository and run the project locally:
+
+```bash
+# Clone the repo
+git clone https://github.com/yashyachwad/EngiGO.git
+
+# Navigate to the frontend folder
+cd EngiGO
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+## 📁 Folder Structure
+EngiGO/
+│
+├── src/
+│   ├── Comp/          # All React components (Nav, Body, First, etc.)
+│   ├── App.jsx        # Main React component
+│   ├── index.css      # Tailwind and global styles
+│   └── main.jsx       # React entry point
+│
+├── public/            # Static assets
+├── package.json       # Dependencies and scripts
+└── vite.config.js     # Vite configuration
